@@ -16,7 +16,8 @@ This program is simply just a menu program.
 It can help with access programs,
 telling the time and some other stuff.
 To edit buttons, click the top left
-menu and click Button Editor.''')
+menu and click Button Editor.
+HTML based help files on the way!''')
     helpbox.config(state='disabled')    
     helpbox.pack()
     helpokbtn = Button(helpwin,text='       Ok       ',command=helpwin.destroy)
@@ -27,7 +28,7 @@ def aboutWin():
     aboutwin.iconbitmap(r"Data\icon.ico")
     aboutwin.geometry('400x150')
     aboutbox = Text(aboutwin,height=6,width=35)
-    aboutbox.insert('end','''Made by Owen
+    aboutbox.insert('end','''Made by ojokenobi
 Shareware, you can distribute if
 you want.''')
     aboutbox.config(state='disabled')    
